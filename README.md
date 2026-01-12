@@ -14,7 +14,7 @@
 
 | ID | テーマ | 記事 | コード | 主要手法 | Readme | 位置づけ（いつ使うか） | Status |
 |---:|---|---|---|---|---|---|---|
-| 001 | PLS回帰で多重共線性＋少サンプルのKPI分析 | <Qiita URL> | `projects/001_pls_kpi_demo/` | PLS / PCR / Ridge / Lasso | `script/pls_regression.md` | KPIが束で動き、pが大きくnが小さい | stable |
+| 001 | PLS回帰で多重共線性＋少サンプルのKPI分析 | [Qiita URL](https://qiita.com/WE1CH-KAZU/items/8ed9f1d3d950611b477c) | [pls_regression](src/main/pls_regression/pls_regression.ipynb) | PLS / PCR / Ridge / Lasso | [readme](scripts/pls_regression.md) | KPIが束で動き、pが大きくnが小さい | stable |
 | ... | ... | ... | ... | ... | ... | ... | draft |
 
 > 運用ルール：Status は `draft / stable / deprecated` のいずれかを付与します。
