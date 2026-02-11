@@ -3,7 +3,7 @@ This repository provides a reproducible demo pipeline for **Partial Least Square
 本リポジトリは、間接部門で典型的な「サンプル数が少ない」「KPI間の多重共線性が強い」状況を想定し、**PLS回帰（Partial Least Squares）** を再現可能に試せるデモパイプラインを提供します。**PCR / Ridge / Lasso** との比較と、交差検証に基づくモデル選択（成分数・正則化強度の決定）も含みます。
 
 ## Associated Article
-- Qiita: （ここに記事URL）  
+- Qiita: [URL](https://qiita.com/WE1CH-KAZU/items/8ed9f1d3d950611b477c)  
   - Why PLS is practical under multicollinearity + small n  
     多重共線性＋少サンプルでPLSが実務的に有効な理由  
   - How to select #components via CV  
