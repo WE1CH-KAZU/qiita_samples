@@ -53,10 +53,6 @@ qiita_samples/
 │   ├── <article-slug>.md    # 記事本文（Markdown原稿）
 │   ├── *.py                 # 検証用コード（GitHubでpublic公開し記事からリンク）
 │   └── figs/                # 図（必要な場合）
-├── src/main/                # 既存のNotebook（現状維持・変更しない）
-│   └── <theme>/
-│       └── <theme>.ipynb
-├── scripts/                 # 既存NotebookのREADME（現状維持・変更しない）
 └── .claude/
     ├── skills/              # カスタムスキル定義
     └── rules/               # トピック別ルール
@@ -111,7 +107,6 @@ qiita_samples/
 ### 作業範囲
 
 - このディレクトリ（`qiita_samples/`）外のファイル・フォルダを修正・削除しない
-- `src/main/` および `scripts/` 配下の既存Notebookは変更しない（別途移行作業として対応）
 - 破壊的変更は必ず具体的な変更内容の経緯と理由を通知し、承認を受けてから実行する
 
 ### コード
@@ -121,7 +116,7 @@ qiita_samples/
 - `pip install` は使わず、必ず `uv add` でパッケージを追加する
 - Pythonファイルを記事ディレクトリ（`<article-slug>/`）の外に置かない
 - APIキーをコード内に埋め込まない
-- OpenAIアカウント内の機密情報は記入しない
+- Claudeアカウント内の機密情報は記入しない
 
 ### 記事
 

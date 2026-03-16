@@ -101,8 +101,7 @@ $$
 
 実際の解析手法とその示唆をご紹介します。Pythonコードそのものは GitHub から確認してください。
 
-<!-- TODO: GitHubのURLが確定したらリンクを差し替える -->
-[pls_regression.py（リンク未定）]()
+[pls_regression.py](https://github.com/WE1CH-KAZU/qiita_samples/blob/main/pls-regression/pls_regression.py)
 
 ### モックデータ構造
 

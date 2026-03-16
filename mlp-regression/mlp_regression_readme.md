@@ -47,4 +47,4 @@ $$
 
 ---
 
-このドキュメントは `src/main/mlp_regression/mlp_regression.ipynb` の実装に対応しています。
+このドキュメントは `mlp_regression.py` の実装に対応しています。
