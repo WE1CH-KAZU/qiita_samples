@@ -25,10 +25,23 @@ develop → stage → main
 
 ## コミットメッセージ
 
-[Conventional Commits](https://www.conventionalcommits.org/ja/v1.0.0/) に準拠し、**英語で記述する**。
+[Conventional Commits](https://www.conventionalcommits.org/ja/v1.0.0/) に準拠し、**description は必ず英語で記述する（日本語不可）**。
 
 ```
 <type>(<scope>): <description>
+```
+
+description に日本語を使うのは誤り。type・scope は英数字・記号のみのため、英語ルールは description に適用される。
+
+```
+# 良い例
+feat: add problem-connection flow to article-outline skill
+docs: update MLP regression article link and status to stable
+fix(price-elasticity-log-link): correct GLM coefficient interpretation
+
+# 悪い例（description が日本語になっている）
+feat: article-outlineスキルに課題接続フローを追加
+docs: MLP回帰記事のQiitaリンクとステータスをstableに更新
 ```
 
 - scope には変更対象を示す識別子を入れる
