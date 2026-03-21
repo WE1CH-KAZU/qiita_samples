@@ -15,7 +15,7 @@
 | ID | テーマ | 記事 | コード | 設計書 | 主要手法 | 位置づけ（いつ使うか） | Status |
 |---:|---|---|---|---|---|---|---|
 | 001 | PLS回帰で多重共線性＋少サンプルのKPI分析 | [Qiita](https://qiita.com/WE1CH-KAZU/items/8ed9f1d3d950611b477c) | [pls_regression.py](pls-regression/pls_regression.py) | [readme](pls-regression/pls_regression_readme.md) | PLS / PCR / Ridge / Lasso | KPIが束で動き、pが大きくnが小さい | stable |
-| 002 | MLP回帰で非線形KPI分析 | 未出稿 | [mlp_regression.py](mlp-regression/mlp_regression.py) | [readme](mlp-regression/mlp_regression_readme.md) | MLP / Ridge | 非線形性が疑われる小〜中規模データ | draft |
+| 002 | MLP回帰で非線形KPI分析 | [Qiita](https://qiita.com/WE1CH-KAZU/items/d4f4b5f7c9ab8ed779f2) | [mlp_regression.py](mlp-regression/mlp_regression.py) | [readme](mlp-regression/mlp_regression_readme.md) | MLP / Ridge | 非線形性が疑われる小〜中規模データ | stable |
 | 003 | 価格弾力性をlogリンク関数でモデリング | 未出稿 | [price_elasticity_glm.py](price-elasticity-log-link/price_elasticity_glm.py) | - | GLM / Poisson / Negative Binomial | 需要予測・価格感応度の推定 | draft |
 | 004 | 動的価格弾力性モデル | 未出稿 | [verify.py](dynamic-price-elasticity/verify.py) | - | ローリングGLM / 状態空間モデル | 時変する価格感応度の推定 | draft |
 | 005 | データアナリストの知識とAI | [note](https://note.com/_we1ch_/n/n20e367ee6aaf) | - | - | エッセイ | - | stable |
