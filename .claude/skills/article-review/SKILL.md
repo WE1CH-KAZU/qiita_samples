@@ -1,7 +1,6 @@
 ---
 name: article-review
 description: 既存の技術記事をレビューして改善提案を出す。記事の内容を貼り付けるかファイルパスを指定して使用する。
-disable-model-invocation: true
 ---
 
 # 技術記事レビュアー
