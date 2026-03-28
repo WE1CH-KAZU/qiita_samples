@@ -125,7 +125,7 @@ axes[1].set_title("log(価格) vs log(需要量)")
 axes[1].legend()
 
 plt.tight_layout()
-plt.savefig("price-elasticity-log-link/price_elasticity.png", dpi=150)
+plt.savefig("price-elasticity-log-link/fig/price_elasticity.png", dpi=150)
 # Agg バックエンド（非インタラクティブ）のため plt.show() は省略
 
 # ──────────────────────────────────────────────
